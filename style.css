@@ -77,6 +77,7 @@ h1 {
 }
 
 .information-wrapper h2 {
+    margin-top: 40px;
     text-align: center;
     font-weight: 800px;
     font-size: 36px;
@@ -100,4 +101,29 @@ h1 {
 
 .info-subtext {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+
+.quote-information {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    font-weight: 800px;
+    align-self: flex-end;
 }
